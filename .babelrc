@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "production": {
+        "presets": ["react-optimize"]
+      }
+    }],
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "react-hot-loader/babel"
+  ],
+  "comments": false
+}
