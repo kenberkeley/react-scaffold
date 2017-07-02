@@ -10,7 +10,13 @@ config.output.chunkFilename = 'js/[id].[chunkhash:6].js';
 config.plugins.push(
   new webpack.optimize.OccurrenceOrderPlugin(),
   new webpack.optimize.UglifyJsPlugin({
-    compress: { warnings: false }
+    beautify: false,
+    comments: false,
+    compress: {
+      warnings: false,
+      collapse_vars: true,
+      reduce_vars: true
+    }
   }),
   new webpack.optimize.CommonsChunkPlugin({
     name: 'manifest',

@@ -31,7 +31,7 @@ module.exports = {
       include: PATHS.SRC
     }, {
       test: /\.jsx?$/,
-      loader: 'babel-loader',
+      loader: 'babel-loader?cacheDirectory',
       include: PATHS.SRC
     }, {
       test: /\.(png|jpe?g|gif|svg)$/,
