@@ -1,5 +1,4 @@
 var webpack = require('webpack'),
-  PATHS = require('./config/PATHS'),
   config = require('./webpack.base.conf'),
   ExtractTextPlugin = require('extract-text-webpack-plugin'),
   OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');

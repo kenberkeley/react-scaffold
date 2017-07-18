@@ -1,5 +1,4 @@
 var webpack = require('webpack'),
-  PATHS = require('./config/PATHS'),
   PORTS = require('./config/PORTS'),
   config = require('./webpack.base.conf'),
   ExtractTextPlugin = require('extract-text-webpack-plugin'),

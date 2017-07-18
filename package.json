@@ -12,7 +12,7 @@
     "url": "https://github.com/kenberkeley/react-scaffold.git"
   },
   "dependencies": {
-    "es6-shim": "^0.35.3",
+    "babel-polyfill": "^6.23.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
